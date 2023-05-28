@@ -57,3 +57,10 @@ a {
         height: 25px;
     }
 }
+
+@media screen and (max-width: 705px) {
+    .navbar {
+        padding: 0 2rem;
+        padding-top: 1rem;
+    }
+}

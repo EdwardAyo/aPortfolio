@@ -52,24 +52,12 @@
 }
 
 .blog__text {
-    display: flex;
     background-color: #d9efff;
     width: 5000px;
     height: inherit;
-    overflow: hidden;
     padding: 10px;
     box-shadow: 0px 0px 4px 2px rgb(132, 159, 173);
     border-radius: 20px;
-}
-
-.blog__textInner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.blog_innerText {
-    width: 98%;
 }
 
 .project__header {
@@ -153,24 +141,26 @@
 
 @media screen and (max-width: 705px) {
     .summary {
-        width: 100%;
-        padding-left: 5rem;
-        padding-right: 5rem;
+        width: 80%;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .blog {
         display: block;
-        width: 100%;
-        padding-left: 5rem;
-        padding-right: 5rem;
+        width: 80%;
+        padding-left: 2rem;
+        padding-right: 1rem;
     }
 
     .blog__text {
         display: block;
         float: none;
-        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        width: 96%;    
     }
-
+    
     .blog__image {
         display: block;
         float: none;
@@ -187,14 +177,14 @@
     }
 
     .project__header {
-        width: 100%;
-        padding-left: 5rem;
-        padding-right: 5rem;
+        width: 80%;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .templates {
-        width: 100%;
-        padding-left: 5rem;
-        padding-right: 5rem;
+        width: 80%;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
