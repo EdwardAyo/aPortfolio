@@ -40,7 +40,7 @@ const Summary = () => {
             </div>
                 
 
-            <div className="blog" id="blog">
+            <div className="blog" id="about">
                 <div className="blog__image">
                     
                 </div>
@@ -58,7 +58,7 @@ const Summary = () => {
             </div>
             
 
-            <div className="project__header">
+            <div className="project__header" id="projects">
                 <div className="project__tab1">
                     <div className="project__innerText">
                         <h2>Projects</h2>

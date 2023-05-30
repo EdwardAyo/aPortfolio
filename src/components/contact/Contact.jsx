@@ -5,7 +5,7 @@ import email from '../assets/email.png';
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <h2>Contact me:</h2>
             <div className="contact__name">
                 <input type="text" placeholder="Your name"></input>
