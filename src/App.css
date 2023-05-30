@@ -10,8 +10,7 @@
 
 body {
   background-color: #b5dffc;
-  background-image: linear-gradient(90deg, #c8e8ff 0%, #a6abff 100%);
-  width: 100%;
+  background-image: linear-gradient(90deg, #b3dfff 0%, #4c55fd 100%);
 }
 
 .App {
