@@ -14,7 +14,7 @@
 
 .navbar__logo img {
     width: 120px;
-    height: 50px;
+    height: inherit;
 }
 
 a {
@@ -91,5 +91,15 @@ a {
     .navbar {
         padding: 0 3rem;
         padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navbar__logo img {
+        width: 80px;
     }
 }
