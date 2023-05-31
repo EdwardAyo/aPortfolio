@@ -123,3 +123,9 @@
         font-size: 11px;
     }
 }
+
+@media screen and (max-width: 200px) {
+    .additional__contact p {
+        font-size: 8px;
+    }
+}

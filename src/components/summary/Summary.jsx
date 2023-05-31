@@ -5,13 +5,10 @@ import git from '../assets/github.svg';
 import html from '../assets/html-5.svg';
 import css from '../assets/css-3.svg';
 import js from '../assets/javascript.svg';
+import reactimage from '../assets/react.png';
 import portait from '../assets/portrait.jpg';
+import shot from '../assets/shot.png';
 
-const Template = () => (
-    <div className="template__body">
-
-    </div>    
-)
 
 const Summary = () => {
     return (
@@ -73,15 +70,38 @@ const Summary = () => {
                 </div>
             </div>
 
-            <div>
-                <div className="templates">
-                    <Template />
-                </div>
-                <div className="templates">
-                    <Template />
-                </div>
-                <div className="templates">
-                    <Template />
+            <div className="templates">
+                <div className="template__body">
+                    <img src={shot} alt="shot" className="tempImage"/>
+
+                    <div className="template__text">
+                        <h1>RED TV</h1>
+                        <p>
+                            <br />
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+
+                        <div className="template__image">
+                            <img src={html} alt="html" />
+                            <img src={css} alt="css" />
+                            <img src={js} alt="javascript" />
+                        </div>
+
+                        <div className="template__image2">
+                            <div className="template_image1">
+                                <img src={git} alt="git" />
+                                <p>GitHub</p>
+                            </div>
+                            
+                            <div className="template_image2">
+                                <img src={reactimage} alt="react" />
+                                <p>Live demo</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
