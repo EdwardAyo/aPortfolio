@@ -19,7 +19,6 @@
 
 .summary__header-image img {
     width: 300px;
-    height: inherit;
     margin-bottom: 2rem;
     border-radius: 50%;
     border: 10px solid #b3dfff;
@@ -49,7 +48,6 @@
 .summary__secIcons img {
     padding-top: 1rem;
     width: 110px;
-    height: inherit;
 }
 
 .blog {
@@ -67,7 +65,6 @@
     background-image: url('../assets/webdev.jpg');
     background-size: contain;
     width: 4000px;
-    height: 300px;
     margin: 20px;
     border-radius: 20px;
 }
@@ -75,7 +72,6 @@
 .blog__text {
     background-color: #d9efff;
     width: 5000px;
-    height: inherit;
     padding: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -108,7 +104,6 @@
     align-items: center;
     background-color: #d9efff;
     width: 5000px;
-    height: 100px;
     box-shadow: 0px 0px 4px 2px rgb(132, 159, 173);
     border-radius: 20px;
 }
@@ -224,7 +219,6 @@
 
     .summary__secIcons img {
         width: 70px;
-        height: inherit;
     }
 
     .blog {
@@ -288,12 +282,10 @@
 @media screen and (max-width: 540px) {
     .summary__header-image img {
         width: 200px;
-        height: inherit;
     }
 
     .summary__secIcons img {
         width: 60px;
-        height: inherit;
     }
 }
 
@@ -319,7 +311,6 @@
 @media screen and (max-width: 345px) {
     .summary__header-image img {
         width: 150px;
-        height: inherit;
     }
 
     .summary__header-text h1 {
