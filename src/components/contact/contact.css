@@ -38,17 +38,17 @@
 
 .contact__email input,
 .contact__name input {
-    box-shadow: 0px 0px 2px 1px rgb(132, 159, 173);
     background-color: #d9efff;
     border-radius: 20px;
     padding: 7px;
     width: 360px;
+    border: 1px solid #00033a;
 }
 
 .contact__message textarea {
-    box-shadow: 0px 0px 2px 1px rgb(132, 159, 173);
     background-color: #d9efff;
     border-radius: 20px;
+    border: 1px solid #00033a;
     padding: 10px;
 }
 
@@ -76,7 +76,8 @@
     font-weight: bold;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 5px 3px rgb(132, 159, 173);
+    border: none;
+    box-shadow: 0px 0px 5px 3px rgb(150, 150, 150);
     background-color: #00033a;
     border-radius: 20px;
 }
