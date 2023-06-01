@@ -65,6 +65,7 @@
     background-image: url('../assets/webdev.jpg');
     background-size: contain;
     width: 4000px;
+    height: 300px;
     margin: 20px;
     border-radius: 20px;
 }
