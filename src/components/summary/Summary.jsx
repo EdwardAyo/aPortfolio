@@ -8,7 +8,9 @@ import js from '../assets/javascript.svg';
 import reactimage from '../assets/react.png';
 import portait from '../assets/portrait.jpg';
 import shot from '../assets/shot.png';
-
+import shot2 from '../assets/shot2.png';
+import shot3 from '../assets/shot3.png';
+import mini from '../assets/mini.png';
 
 const Summary = () => {
     return (
@@ -72,7 +74,7 @@ const Summary = () => {
 
             <div className="templates">
                 <div className="template__body">
-                    <img src={shot} alt="shot" className="tempImage"/>
+                    <img src={shot} alt="shot" />
 
                     <div className="template__text">
                         <h1>RED TV</h1>
@@ -101,10 +103,126 @@ const Summary = () => {
                                 <p>Live demo</p>
                             </div>
                         </div>
+                    </div>                    
+                </div>
+
+                <div className="template__body">
+                    <img src={shot2} alt="shot2" />
+
+                    <div className="template__text">
+                        <h1>SLACK</h1>
+                        <p>
+                            <br />
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+
+                        <div className="template__image">
+                            <img src={html} alt="html" />
+                            <img src={css} alt="css" />
+                            <img src={js} alt="javascript" />
+                        </div>
+
+                        <div className="template__image2">
+                            <div className="template_image1">
+                                <img src={git} alt="git" />
+                                <p>GitHub</p>
+                            </div>
+                            
+                            <div className="template_image2">
+                                <img src={reactimage} alt="react" />
+                                <p>Live demo</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <div className="template__body">
+                    <img src={shot3} alt="shot3" />
+
+                    <div className="template__text">
+                        <h1>FIGMA</h1>
+                        <p>
+                            <br />
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+
+                        <div className="template__image">
+                            <img src={html} alt="html" />
+                            <img src={css} alt="css" />
+                            <img src={js} alt="javascript" />
+                        </div>
+
+                        <div className="template__image2">
+                            <div className="template_image1">
+                                <img src={git} alt="git" />
+                                <p>GitHub</p>
+                            </div>
+                            
+                            <div className="template_image2">
+                                <img src={reactimage} alt="react" />
+                                <p>Live demo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="miniProjects">
+                    <div className="miniProjects__header">
+                        <h2>Mini Projects</h2>
+                        <p>This section includes projects from the beginning of my programming education and technologies in which I am just beginning to learn</p>
+                    </div>
+                    
+                    <div className="miniProjects__content">
+                        <div className="content__first">
+                            <img src={mini} alt="mini" className="mini" />
+                            <div className="description">
+                                <p>React application with Bootstrap styles and firebase authentication</p>
+                                <img src={git} alt="git" className="git" />
+                            </div>
+                        </div>
+
+                        <div className="content__first">
+                            <img src={mini} alt="mini" className="mini" />
+                            <div className="description">
+                                <p>React application with Bootstrap styles and firebase authentication</p>
+                                <img src={git} alt="git" className="git" />
+                            </div>
+                        </div>
+
+                        <div className="content__first">
+                            <img src={mini} alt="mini" className="mini" />
+                            <div className="description">
+                                <p>React application with Bootstrap styles and firebase authentication</p>
+                                <img src={git} alt="git" className="git" />
+                            </div>
+                        </div>
+
+                        <div className="content__first">
+                            <img src={mini} alt="mini" className="mini" />
+                            <div className="description">
+                                <p>React application with Bootstrap styles and firebase authentication</p>
+                                <img src={git} alt="git" className="git" />
+                            </div>
+                        </div>
+
+                        <div className="content__first">
+                            <img src={mini} alt="mini" className="mini" />
+                            <div className="description">
+                                <p>React application with Bootstrap styles and firebase authentication</p>
+                                <img src={git} alt="git" className="git" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
-            
         </div>
     )
 }
